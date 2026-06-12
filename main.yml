@@ -1,6 +1,6 @@
 ---
 - name: Hello World AWX project
-  hosts: all 
+  hosts: localhost 
   tasks: 
   - name: Hello World AWX tasks
     debug:
