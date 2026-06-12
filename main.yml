@@ -1,7 +1,6 @@
 ---
 - name: Hello World AWX project
   hosts: all 
-  become: true
   tasks: 
   - name: Hello World AWX tasks
     debug:
