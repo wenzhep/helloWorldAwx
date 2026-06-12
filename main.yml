@@ -4,4 +4,7 @@
   tasks: 
   - name: Hello World AWX tasks
     debug:
-      msg: "Hello world AWX, it works!"   
+      msg: "{{var_1 var_2 var_3}}, it works!"   
+  - name: Merged vars in the git tasks
+    debug:
+      msg: "{{var_1 var_4}}!"   
